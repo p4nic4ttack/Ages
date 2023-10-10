@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/ise/Shared/VGA_Font_Custom_1ram/top_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_textio" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="textio" />
+            <top_module name="top_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="10" />
+   <wvobject fp_name="/top_tb/down_clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">down_clk</obj_property>
+      <obj_property name="ObjectShortName">down_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/ram_wea" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ram_wea</obj_property>
+      <obj_property name="ObjectShortName">ram_wea</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/VGA_TMP/ram_a" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ram_a[12:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_a[12:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/VGA_TMP/ram_d" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ram_d[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_d[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/VGA_TMP/x_v" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">x_v[11:0]</obj_property>
+      <obj_property name="ObjectShortName">x_v[11:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/VGA_TMP/y_v" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">y_v[11:0]</obj_property>
+      <obj_property name="ObjectShortName">y_v[11:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/VGA_TMP/ram_reg" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ram_reg[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_reg[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/VGA_TMP/rom_reg" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rom_reg[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rom_reg[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/VGA_TMP/color" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">color[7:0]</obj_property>
+      <obj_property name="ObjectShortName">color[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/VGA_TMP/ram_r" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ram_r</obj_property>
+      <obj_property name="ObjectShortName">ram_r</obj_property>
+   </wvobject>
+</wave_config>

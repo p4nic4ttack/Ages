@@ -1,0 +1,20 @@
+0x00 --> jp init
+0x100 - 0x110 --> init code (init stack ptr, call gsinit, call main)
+
+0x500 - ... --> main code
+0x5000 - ... --> data loc
+0x8000 --> SP
+
+
+Vector table:
+0xf800 - 0xf801 -> Addr isr1
+0xf87e - 0xf87f -> Addr isr2
+
+joystick_regs
+joystick1_a = 0x200
+0x210 - 0x217 -> LED reg
+0x218 SPI_CLK
+0x219 SPI_DOUT
+0x21a SPI_DC
+0x21b SPI_CE
+0x21c SPI_RST

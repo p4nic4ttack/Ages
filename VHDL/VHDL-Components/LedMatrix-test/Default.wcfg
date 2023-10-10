@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/ise/Shared/Project-LedMatrix-tmp/top_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="top_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="15" />
+   <wvobject fp_name="/top_tb/outp" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">outp</obj_property>
+      <obj_property name="ObjectShortName">outp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/ws282/enable" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">enable</obj_property>
+      <obj_property name="ObjectShortName">enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/ws282/tx_ready" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">tx_ready</obj_property>
+      <obj_property name="ObjectShortName">tx_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/ws282/ready" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ready</obj_property>
+      <obj_property name="ObjectShortName">ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/ws282/data_out" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">data_out</obj_property>
+      <obj_property name="ObjectShortName">data_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/ws282/fsm" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">fsm</obj_property>
+      <obj_property name="ObjectShortName">fsm</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/ws282/amount_leds" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">amount_leds</obj_property>
+      <obj_property name="ObjectShortName">amount_leds</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/ws282/rgb_len" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">rgb_len</obj_property>
+      <obj_property name="ObjectShortName">rgb_len</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/ws282/len" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">len</obj_property>
+      <obj_property name="ObjectShortName">len</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/ws282/t0h" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">t0h</obj_property>
+      <obj_property name="ObjectShortName">t0h</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/ws282/t0l" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">t0l</obj_property>
+      <obj_property name="ObjectShortName">t0l</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/ws282/t1h" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">t1h</obj_property>
+      <obj_property name="ObjectShortName">t1h</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/ws282/t1l" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">t1l</obj_property>
+      <obj_property name="ObjectShortName">t1l</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/ws282/rst_time" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">rst_time</obj_property>
+      <obj_property name="ObjectShortName">rst_time</obj_property>
+   </wvobject>
+</wave_config>

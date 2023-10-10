@@ -1,0 +1,15 @@
+__sfr  __banked __at (0xff)  joystick1;
+__sfr  __banked __at (0xfe)  joystick2;
+__sfr  __banked __at (0x210) LED0;
+__sfr  __banked __at (0x211) LED1;
+__sfr  __banked __at (0x212) LED2;
+__sfr  __banked __at (0x213) LED3;
+__sfr  __banked __at (0x214) LED4;
+__sfr  __banked __at (0x215) LED5;
+__sfr  __banked __at (0x216) LED6;
+__sfr  __banked __at (0x217) LED7;
+//__sfr __banked  __at (0x218) SPI_CLK;
+//__sfr __banked  __at (0x219) SPI_DOUT;
+//__sfr __banked  __at (0x21a) SPI_DC;
+//__sfr __banked  __at (0x21b) SPI_CE;
+//__sfr __banked  __at (0x21c) SPI_RST;

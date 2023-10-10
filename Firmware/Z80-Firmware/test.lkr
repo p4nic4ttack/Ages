@@ -1,0 +1,12 @@
+MEMORY
+{
+    my_memory_region : ORIGIN = 0x70, LENGTH = 0x0f
+}
+
+SECTIONS
+{
+    .intvecs :
+    {
+        my_interrupt.o(.text)
+    } > my_memory_region
+}

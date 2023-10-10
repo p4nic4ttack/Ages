@@ -1,0 +1,34 @@
+sdasz80 -xlos -g crt0.s
+sdcc -o test.rel -c --std-c11 -mz80 --debug --no-std-crt0 -I. test.c
+sdcc -o help.rel -c --std-c11 -mz80 --debug --no-std-crt0 -I. lib/help.c
+sdcc -o test.ihx -mz80 -Wl -y --code-loc 0x0000 --data-loc 0x1000 --std-c11 -mz80 --debug --no-std-crt0 crt0.rel test.rel
+sdobjcopy -I ihex -O binary test.ihx test.bin
+z80dasm test.bin
+
+
+
+sdcc -o test.rel -c --std-c11 -mz80 --debug -Iinclude --no-std-crt0 -I. test.c
+
+
+sdcc --debug --model-large --use-stdout -V --xram-loc 0xF000 --xram-size 0x600 --code-size 0x7000 -I. -o main.hex main.rel
+
+
+
+
+sdasz80 -xlos -g crt0.s
+sdcc -o test.rel -c --std-c11 -mz80 --debug --no-std-crt0 -Iinclude test.c
+sdcc -o help.rel -c --std-c11 -mz80 --debug --no-std-crt0 -Iinclude lib/help.c
+sdcc -o test.ihx -mz80 -Wl -y --code-loc 0x0000 --data-loc 0x1000 --std-c11 -mz80 --debug --no-std-crt0 crt0.rel test.rel help.rel
+sdobjcopy -I ihex -O binary test.ihx test.bin
+z80dasm test.bin
+
+
+sdcc --code-loc 0x0000 --data-loc 0x1000 --std-c11 -mz80 --debug --use-stdout -V -I. -o main.hex main.rel xc888_lib.rel led.rel lcd.rel
+
+sdasz80 -xlos -g crt0.s
+sdcc -o test.rel -c --std-c11 -mz80 --debug --no-std-crt0 -Iinclude test.c
+sdcc -o help.rel -c --std-c11 -mz80 --debug --no-std-crt0 -Iinclude lib/help.c
+sdasz80 -plosgffwy test.rel test.asm
+sdasz80 -plosgffwy help.rel help.asm
+sdcc -o test.ihx -mz80 -Wl -y --code-loc 0x0000 --data-loc 0x1000 --std-c11 -mz80 --debug --no-std-crt0 crt0.rel help.rel test.rel
+sdobjcopy -I ihex -O binary test.ihx test.bin

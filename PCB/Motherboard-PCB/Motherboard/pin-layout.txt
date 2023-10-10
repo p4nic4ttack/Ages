@@ -1,0 +1,105 @@
+RAM:
+A0 -> 112
+A1 -> 113
+A2 -> 114
+A3 -> 115
+A4 -> 118
+A5 -> 119
+A6 -> 120
+A7 -> 121
+A8 -> 9
+A9 -> 7
+A10 -> 141
+A11 -> 3
+A12 -> 122
+A13 -> 143
+A14 -> 125
+A15 -> 97
+A16 -> 94
+
+DQ0 -> 126
+DQ1 -> 129
+DQ2 -> 132
+DQ3 -> 133
+DQ4 -> 134
+DQ5 -> 135
+DQ6 -> 136
+DQ7 -> 137
+
+CE2
+OE# -> 142
+CE# -> 139
+WE# -> 96
+
+
+DB9:
+Con1
+ SRT/C -> 104
+ RGT -> 103
+ LFT -> 100
+ SEL -> 101
+ AB -> 99
+ UP -> 91
+ DWN -> 89
+Con2:
+ SRT/C -> 40
+ RGT -> 47
+ LFT -> 51
+ SEL -> 63
+ DWN -> 53
+ UP -> 57
+ AB -> 59
+
+VGA:
+R0 -> 74
+R1 -> 72
+R2 -> 80
+G0 -> 73
+G1 -> 75
+G2 -> 79
+B0 -> 81
+B1 -> 87
+HSYNC -> 86
+VSYNC -> 92
+
+Audio:
+Audio Out -> 71
+
+UART:
+rx -> 88
+tx -> 70
+
+ATMega:
+ATTX0 -> 65
+ATRX0 -> 69
+ATTX1 -> 64
+ATRX1 -> 67
+
+Composite module:
+COMP_R -> 41
+COMP_G -> 42
+COMP_B -> 43
+COMP_VSYNC -> 44
+COMP_HSYNC -> 45
+
+Buttons:
+Boot -> 27
+RST -> 30
+
+LEDs
+D0 -> 48
+D1 -> 52
+D2 -> 55
+D3 -> 58
+D4 -> 60
+D5 -> 26
+D6 -> 25
+D7 -> 24
+
+LCD:
+CLK -> 44
+DIN -> 45
+DC -> 43
+CE -> 42
+RST -> 41
+(28, 24) 26, 25, 

@@ -1,0 +1,21 @@
+Net Status Report
+Filename     : C:\Users\Tim\Documents\School\PE2\PCB\Composite-Module\Composite-Module.PcbDoc
+Date         : 18/02/2023
+Time         : 14:05:03
+Time Elapsed : 00:00:00
+
+Nets, Layer, Length
+    GND, Signal Layers Only, 0mm
+    NetC1_1, Signal Layers Only, 0mm
+    NetC1_2, Signal Layers Only, 0mm
+    NetC2_1, Signal Layers Only, 0mm
+    NetC2_2, Signal Layers Only, 0mm
+    NetC3_1, Signal Layers Only, 0mm
+    NetC3_2, Signal Layers Only, 0mm
+    NetC4_1, Signal Layers Only, 0mm
+    NetC4_2, Signal Layers Only, 0mm
+    NetC5_2, Signal Layers Only, 0mm
+    NetIC1_10, Signal Layers Only, 0mm
+    NetIC1_15, Signal Layers Only, 0mm
+    NetIC1_16, Signal Layers Only, 0mm
+count : 13
